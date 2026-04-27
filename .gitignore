@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Database local files and dumps
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.dump
+backend/prisma/*.db
+backend/prisma/*.db-journal
+backend/prisma/dev.db
+data/
+postgres-data/
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+backend/dist/
+frontend/dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local media exports
+*.mov
+*.mp4
+*.webm
